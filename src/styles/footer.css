@@ -1,0 +1,62 @@
+footer {
+  background: #eceaea;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+}
+
+footer .container {
+  margin: 38px 15.885416666667% 38px 23.3%;
+  /* max-width: 1167px; */
+}
+
+.footer_menu {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  max-height: 96px;
+}
+
+.footer_menu_list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 542px;
+}
+
+.footer_menu_contact {
+  display: flex;
+  justify-content: space-between;
+  max-width: 495px;
+  width: 100%;
+}
+
+.footer_menu_contact_item--mobile {
+  margin-right: 3.90625%;
+}
+
+.phone::before {
+  content: url(../assets/Phone.svg);
+}
+
+.adress::before {
+  content: url(../assets/Geo.svg);
+}
+
+@media (max-width: 960px) {
+  footer {
+    position: relative;
+    padding-top: 38px;
+  }
+
+  footer .container {
+    margin: 20px;
+    position: relative;
+    height: 96px;
+  }
+  .footer_menu {
+    display: block;
+  }
+}

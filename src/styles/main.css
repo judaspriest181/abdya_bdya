@@ -1,0 +1,48 @@
+.main_title {
+    padding-top: 5px;
+    padding-bottom: 24px;
+  }
+  
+  .main_auctions {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .main_item {
+    max-width: 280px;
+  }
+  
+  .main_block {
+    display: flex;
+    border: 1px solid #e1e1e1;
+    box-sizing: border-box;
+    flex-direction: column;
+  }
+  
+  .main_block--sold {
+    padding-bottom: 17px;
+    opacity: 0.5;
+  }
+  .main_desc {
+    padding: 5px 24px 24px;
+  }
+  
+  .main_price {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .main_price-buy {
+    padding-top: 25px;
+  }
+  
+  .main_btn {
+    margin-top: 12px;
+  }
+  
+  .main_sale,
+  .main_cost {
+    margin: 0;
+  }

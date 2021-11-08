@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "Merriweather";
+    src: local("Merriweather Bold"), local("Merriweather-Bold"),
+      url("../assets/fonts/Merriweather-Bold.woff") format("woff"),
+      url("../assets/fonts/Merriweather-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Merriweather";
+    src: local("Merriweather Bold"), local("Merriweather-Bold"),
+      url("../assets/fonts/Merriweather-Regular.woff") format("woff"),
+      url("../assets/fonts/Merriweather-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Merriweather_Light";
+    src: local("Merriweather Bold"), local("Merriweather-Bold"),
+      url("../assets/fonts/Merriweather-Light.woff") format("woff"),
+      url("../assets/fonts/Merriweather-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  html,
+  body {
+    margin: 0 auto;
+    background-color: #f6f3f3;
+    font-family: "Merriweather";
+    max-width: 100%;
+  }
+  
+  h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+  }
+  
+  h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  h6 {
+    font-style: normal;
+    font-weight: 300;
+    color: #a0a0a0;
+    font-size: 14px;
+  }
+  
+  a {
+    font-size: 14px;
+    color: #343030;
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 280px;
+  }
+  
+  button {
+    background: #403432;
+    border-radius: 0px;
+    border: none;
+    height: 48px;
+    width: 122px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #776763;
+  }
+  
+  button:disabled {
+    background: #c1b4b1;
+  }
+  
+  button p {
+    font-family: "Merriweather";
+    color: #ffffff;
+    display: block;
+    text-align: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  input {
+    font-family: "Merriweather";
+    background: #f6f3f3;
+    border-radius: 0px;
+    border: 1px solid #e1e1e1;
+    border-right: none;
+    box-sizing: border-box;
+    height: 48px;
+    width: 294px;
+    padding-left: 16px;
+  }
+  
+  input[type="text"]::-webkit-input-placeholder {
+    color: rgba(159, 159, 159, 1);
+  }
+  
+  input[type="text"]::-moz-placeholder {
+    color: rgba(159, 159, 159, 1);
+  }
+  
+  input:active {
+    border: 1px solid #b5b5b5;
+  }
+  
+  hr {
+    border: 1px solid #e1e1e1;
+  }
+  
+  .container {
+    margin: 24px 18.3%;
+  }
+  
+  @media (max-width: 340px) { 
+    .container {
+    margin: 20px;
+  } 
+}

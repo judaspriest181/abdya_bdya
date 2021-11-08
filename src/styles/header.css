@@ -1,0 +1,26 @@
+  .menu {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 98px;
+  }
+  
+  .menu_list {
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 542px;
+  }
+  
+  .menu_search {
+    display: flex;
+  }
+  
+  @media (max-width: 960px) { 
+  .menu {
+    display: block;
+    padding-left: 0px; 
+  }
+}
